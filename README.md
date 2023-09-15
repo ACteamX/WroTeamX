@@ -17,10 +17,23 @@ This repository contains technical materials for a self-navigating vehicle proto
 ### Requirements:
 
 This project meets the following requirements specified by the WRO Future Engineers event:
-1. **Mobility Management:** The design and operational features focus on optimal mobility in challenging scenarios.
-2. **Power and Sense Management:** Demonstrated integration and management of power systems and sensors for efficient functionality.
-3. **Obstacle Management:** Strategies and technology incorporated to address and navigate obstacles effectively.
-4. **Visual Documentation:** Extensive visual content capturing both team participation and the robot's design.
-5. **Software Control:** In-depth coding for controlling all programmed components and ensuring efficient coordination.
-6. **Problem-Solving Approach:** Documentation illustrating strategic planning and innovative solutions for competition challenges.
-7. **Operational Demonstration:** A detailed video exhibiting the operational capabilities of the vehicle prototype.
+**Mobility Management** is found in build, electrical, and models
+**Power and Sense Management** is found in electrical
+**Obstacle Management** is found in src
+**Pictures**  Team and Vehicle is found in photos
+**Performance Videos** are in video
+**Engineering Factor** is found in build and README
+
+
+### Introduction:
+
+AcTeamX by mechabotix is a team of high school students from Aitchison College Lahore Pakistan. We have been working on our robot since june .
+We have won the National round and then qualified for international round. We are working hard to get the position in the International round as well.
+Instead of buying OFF THE SHELF materials for the design of our car , we have designed our car by ourselves . We made 3d models then got the print of the car .
+In the National round , we made a design and used that oe but that was really big car and we afraid that it may hit the obstacles so we changed the design making it smaller one .
+As far as the electrical components are concerned , we have used pixy camera for detecting the obstacles and used sonar sensors for avoiding the walls .
+
+![pixy camera][(https://drive.google.com/file/d/1ncw9T2mIruhi_fcS2ba7I_iBf0lRZCf4/view?usp=drive_link)
+
+
+
