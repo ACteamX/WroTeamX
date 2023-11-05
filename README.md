@@ -33,7 +33,7 @@ Instead of buying OFF THE SHELF materials for the design of our car , we have de
 In the National round , we made a design and used that oe but that was really big car and we afraid that it may hit the obstacles so we changed the design making it smaller one .
 As far as the electrical components are concerned , we have used pixy camera for detecting the obstacles and used sonar sensors for avoiding the walls .
 
-![Alt Text][(https://drive.google.com/file/d/1ncw9T2mIruhi_fcS2ba7I_iBf0lRZCf4/view?usp=drive_link)
+![pixy camera][(https://drive.google.com/file/d/1ncw9T2mIruhi_fcS2ba7I_iBf0lRZCf4/view?usp=drive_link)
 
 
 
