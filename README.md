@@ -34,6 +34,8 @@ In the National round , we made a design and used that oe but that was really bi
 As far as the electrical components are concerned , we have used pixy camera for detecting the obstacles and used sonar sensors for avoiding the walls .
 
 ![pixy camera][(https://github.com/ACteamX/WroTeamX/issues/1#issue-1977979730)
+![WhatsApp Image 2023-11-05 at 12 08 31 PM](https://github.com/ACteamX/WroTeamX/assets/141714595/eda3b149-4966-46c8-9db3-542c9fb17499)
+
 
 
 
