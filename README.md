@@ -32,7 +32,7 @@ We have won the National round and then qualified for international round. We ar
 Instead of buying OFF THE SHELF materials for the design of our car , we have designed our car by ourselves . We made 3d models then got the print of the car .
 In the National round , we made a design and used that oe but that was really big car and we afraid that it may hit the obstacles so we changed the design making it smaller one .
 As far as the electrical components are concerned , we have used pixy camera for detecting the obstacles and used sonar sensors for avoiding the walls .
-![WhatsApp Image 2023-11-05 at 12 08 31 PM](https://github.com/ACteamX/WroTeamX/assets/141714595/eda3b149-4966-46c8-9db3-542c9fb17499 | width=100)![WhatsApp Image 2023-11-05 at 06 13 54_85fbfebb](https://github.com/ACteamX/WroTeamX/assets/141714595/11d68c47-d439-45c9-95dd-41bc68ee8c98)
+![WhatsApp Image 2023-11-05 at 12 08 31 PM](https://github.com/ACteamX/WroTeamX/assets/141714595/eda3b149-4966-46c8-9db3-542c9fb17499 | 250x250)![WhatsApp Image 2023-11-05 at 06 13 54_85fbfebb](https://github.com/ACteamX/WroTeamX/assets/141714595/11d68c47-d439-45c9-95dd-41bc68ee8c98)
 
 
 
