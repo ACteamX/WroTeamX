@@ -18,10 +18,10 @@ This repository contains technical materials for a self-navigating vehicle proto
 
 This project meets the following requirements specified by the WRO Future Engineers event:
 **Mobility Management** is found in build, electrical, and models
-**Power and Sense Management** is found in electrical
-**Obstacle Management** is found in src
-**Pictures**  Team and Vehicle is found in photos
-**Performance Videos** are in video
+**Power and Sense Management** is found in schemes.(All electrical components are in schemes)
+**Obstacle Management** and coding files are found in src.
+**Pictures**  Team and Vehicle is found in photos.
+**Performance Videos** are in video folder.
 **Engineering Factor** is found in build and README
 
 
@@ -34,6 +34,18 @@ In the National round , we made a design and used that oe but that was really bi
 As far as the electrical components are concerned , we have used pixy camera for detecting the obstacles and used sonar sensors for avoiding the walls .
 
 
+
+### Aim of participation:
+
+**Skills Enhancement:** Develop expertise in robotics, coding, and problem-solving.
+**Innovative Solutions:** Foster creativity in tackling challenges through innovative robotics solutions.
+**Team Collaboration:** Strengthen teamwork and communication skills within a competitive environment.
+**Global Engagement:** Engage and learn from a diverse global community of robotics enthusiasts.
+**Critical Thinking:** Enhance critical thinking and problem-solving abilities in real-world scenarios.
+**Competition Experience:** Learn to perform under pressure and manage time effectively in a competitive setting.
+**STEM Advocacy:** Promote STEM education and interest in robotics and technology.
+**Personal Growth:** Encourage individual growth and confidence through overcoming challenges.
+**Technology Exposure:** Stay updated on cutting-edge technology trends in robotics and automation.
 
 
 
