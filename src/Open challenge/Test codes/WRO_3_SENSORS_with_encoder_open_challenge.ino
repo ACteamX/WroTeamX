@@ -1,20 +1,20 @@
 #include <Servo.h>
 
-const int TRIGGER_PIN_FRONT = 36;  // Front sonar sensor trigger pin
-const int ECHO_PIN_FRONT = 37;     // Front sonar sensor echo pin
+const int TRIGGER_PIN_FRONT = 44;  // Front sonar sensor trigger pin
+const int ECHO_PIN_FRONT = 45;     // Front sonar sensor echo pin
 
-const int TRIGGER_PIN_LEFT = 38;  // Left sonar sensor trigger pin
-const int ECHO_PIN_LEFT = 39;     // Left sonar sensor echo pin
+const int TRIGGER_PIN_LEFT = 46;  // Left sonar sensor trigger pin
+const int ECHO_PIN_LEFT =47;     // Left sonar sensor echo pin
 
-const int TRIGGER_PIN_RIGHT = 40;  // Right sonar sensor trigger pin
-const int ECHO_PIN_RIGHT = 41;     // Right sonar sensor echo pin
+const int TRIGGER_PIN_RIGHT = 42;  // Right sonar sensor trigger pin
+const int ECHO_PIN_RIGHT = 43;     // Right sonar sensor echo pin
 
 const int motor1 = 4;
 const int motor2 = 9;
 const int pwm = 6;
 //encoder
-const int ENCA = 20;  // Encoder pulse input A
-const int ENCB = 21;  // Encoder pulse input B
+const int ENCA = 27;  // Encoder pulse input A
+const int ENCB = 26;  // Encoder pulse input B
 
 Servo steeringServo;
 
@@ -29,7 +29,7 @@ const int totalLaps = 3;  // Set the total number of laps
 
 void setup() {
   Serial.begin(9600);
-  steeringServo.attach(19);
+  steeringServo.attach(53);
 
   // Motor
   pinMode(motor1, OUTPUT);
@@ -68,7 +68,7 @@ void loop() {
   Serial.println(posi);
 
   // Your code to check the conditions
-  if (posi > 32000 && (distanceFront > 150 && distanceFront < 170)) {
+  if (posi > 30000 && (distanceFront > 150 && distanceFront < 170)) {
     // Reset encoder position after each lap
     if (lapCount == totalLaps) {
       digitalWrite(motor1, LOW);
@@ -87,37 +87,44 @@ void loop() {
 
 
   // Implement obstacle avoidance based on sensor readings
-  if (distanceFront >= 0 && distanceFront <= 40) {
+  if (distanceFront >= 0 && distanceFront <= 50) {
     // Obstacle avoidance logic
     if (distanceRight > distanceLeft) {
 
-      steeringServo.write(55);
+      steeringServo.write(50);
       moveForward(turnSpeed);
-      delay(300);
+      delay(200);
     } else if (distanceLeft > distanceRight) {
 
-      steeringServo.write(135);
+      steeringServo.write(140);
       moveForward(turnSpeed);
-      delay(300);
+      delay(200);
     }
-  } else {
-    moveForward(forwardSpeed);
-    steeringServo.write(95);
-  }
-
-  if (distanceFront >= 40) {
+  } 
     // Obstacle avoidance logic when distanceFront is greater than or equal to 40
+     if (distanceFront >= 0 && distanceFront >=30){
     if (distanceRight > distanceLeft) {
       steeringServo.write(80);
       moveForward(turnSpeed);
-      delay(5);
+      delay(20);
     }
     if (distanceLeft > distanceRight) {
       steeringServo.write(110);
       moveForward(turnSpeed);
-      delay(5);
+      delay(20);
     }
   }
+  //CRITICAL TURN
+ if (distanceRight <25) {
+      steeringServo.write(110);
+      moveForward(turnSpeed);
+      delay(10);
+    }
+    if (distanceLeft <25) {
+      steeringServo.write(80);
+      moveForward(turnSpeed);
+      delay(10);
+    }
 }
 
 int getDistance(int triggerPin, int echoPin) {
