@@ -49,14 +49,23 @@ As far as the electrical components are concerned , we have used pixy camera for
 ### Aim of participation:
 
 **Skills Enhancement:** Develop expertise in robotics, coding, and problem-solving.
+
 **Innovative Solutions:** Foster creativity in tackling challenges through innovative robotics solutions.
+
 **Team Collaboration:** Strengthen teamwork and communication skills within a competitive environment.
+
 **Global Engagement:** Engage and learn from a diverse global community of robotics enthusiasts.
+
 **Critical Thinking:** Enhance critical thinking and problem-solving abilities in real-world scenarios.
+
 **Competition Experience:** Learn to perform under pressure and manage time effectively in a competitive setting.
+
 **STEM Advocacy:** Promote STEM education and interest in robotics and technology.
+
 **Personal Growth:** Encourage individual growth and confidence through overcoming challenges.
+
 **Technology Exposure:** Stay updated on cutting-edge technology trends in robotics and automation.
+
 
 
 
