@@ -24,9 +24,11 @@ This repository contains technical materials for a self-navigating vehicle proto
 ### Requirements:
 
 This project meets the following requirements specified by the WRO Future Engineers event:
-**Mobility Management** is found in build, electrical, and models
+**Mobility Management** is found in electrical and models
 
-**Power and Sense Management** is found in schemes.(All electrical components are in schemes)
+**Power and Sense Management** is found in schemes.
+
+***Components List** The list of all components is in schemes as well.
 
 **Obstacle Management** and coding files are found in src.
 
