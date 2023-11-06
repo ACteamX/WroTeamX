@@ -6,27 +6,38 @@ This repository contains technical materials for a self-navigating vehicle proto
 ### Contents:
 
 - **Build:** Detailed documentation focusing on our chassis design and the rationale behind the chosen materials.
+- 
 - **Electrical:** Schematic diagrams illustrating the interconnections among various electromechanical components, including datasheets and explanations for component selection.
+- 
 - **Models:** Files used by 3D printers to fabricate the vehicle's components.
+- 
 - **t-Photos:** Folder containing team photos.
+- 
 - **v-Photos:** Images of the robot.
+- 
 - **Src:** Software code responsible for controlling all the components programmed for the competition.
+- 
 - **Schemes:** Documentation and diagrams elucidating our approach to solving the competition's challenges.
+- 
 - **Video:** Includes the 'video.md' file containing the link to a video demonstrating the vehicle's operational abilities.
 
 ### Requirements:
 
 This project meets the following requirements specified by the WRO Future Engineers event:
 **Mobility Management** is found in build, electrical, and models
+
 **Power and Sense Management** is found in schemes.(All electrical components are in schemes)
+
 **Obstacle Management** and coding files are found in src.
+
 **Pictures**  Team and Vehicle is found in photos.
+
 **Performance Videos** are in video folder.
+
 **Engineering Factor** is found in build and README
 
 
 ### Introduction:
-
 AcTeamX by mechabotix is a team of high school students from Aitchison College Lahore Pakistan. We have been working on our robot since june .
 We have won the National round and then qualified for international round. We are working hard to get the position in the International round as well.
 Instead of buying OFF THE SHELF materials for the design of our car , we have designed our car by ourselves . We made 3d models then got the print of the car .
