@@ -1,12 +1,12 @@
+//replace with actual pin number
+const int TRIGGER_PIN_FRONT = 44;  // Front sonar sensor trigger pin
+const int ECHO_PIN_FRONT = 45;     // Front sonar sensor echo pin
 
-const int TRIGGER_PIN_FRONT = 36;  // Front sonar sensor trigger pin
-const int ECHO_PIN_FRONT = 37;     // Front sonar sensor echo pin
+const int TRIGGER_PIN_LEFT = 46;  // Left sonar sensor trigger pin
+const int ECHO_PIN_LEFT = 47;     // Left sonar sensor echo pin
 
-const int TRIGGER_PIN_LEFT = 38;  // Left sonar sensor trigger pin
-const int ECHO_PIN_LEFT = 39;     // Left sonar sensor echo pin
-
-const int TRIGGER_PIN_RIGHT = 40;  // Right sonar sensor trigger pin
-const int ECHO_PIN_RIGHT = 41;     // Right sonar sensor echo pin
+const int TRIGGER_PIN_RIGHT = 42;  // Right sonar sensor trigger pin
+const int ECHO_PIN_RIGHT = 43;     // Right sonar sensor echo pin
 
 
 void setup() {
