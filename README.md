@@ -88,6 +88,12 @@ We were afraid that it might hit the obstacles with its big design.the dimension
 **New Car** In the new car, we have used Arduino due and for obstacle detetction we have used the pixy camera as it is easy to use and train models. For reducing noise, we have now used two batteries and 1 battery is connected in parallel with one buck convertor(giving 5V to sensors) and one buck-boost convertor(giving power to drive motor and Arduino Due), the other battery is connected with a convertor separately which is giving 5V to servo motor. Also for making the output smooth , we have used some capacitors in parallel fashion to all our components like sensors, motors etc.
 So, these are the thing which we missing in our prevois Robot.
 
+ALSO,
+we have used vero board and designed the circuit on it as it looks professional and accurate , it was not present in old robot.
+
+![vero board](https://github.com/ACteamX/WroTeamX/assets/141714595/5df687b0-4ae7-402f-ab06-b5a54f4b0618)
+![vero board](https://github.com/ACteamX/WroTeamX/assets/141714595/eba352bd-c75a-4a8f-ae0a-bab460c0767c)
+
 
 **Note**
 
