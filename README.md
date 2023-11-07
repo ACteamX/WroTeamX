@@ -69,6 +69,39 @@ As far as the electrical components are concerned , we have used pixy camera for
 **Technology Exposure:** Stay updated on cutting-edge technology trends in robotics and automation.
 
 
+**NEW CAR VS OLD CAR**
+![NEW DESIGN)](https://github.com/ACteamX/WroTeamX/assets/141714595/608c06b5-4983-4be8-89e8-85847c232f5f) ![sidetiltright](https://github.com/ACteamX/WroTeamX/assets/141714595/cb22b858-2131-4d04-bb26-f10d0f93bfd0)
+
+**DIFFERENCES**
+
+**1.DESIGN**
+
+  **OLD CAR** We made a bigger car in National round for WRO and we have won too but we felt that it is too big to cross obstacles .
+We were afraid that it might hit the obstacles with its big design.the dimensions of our old car are 26x19.8x25cm length width and height and the weight of this car was 1490g. Our old car was very close to maximum dimensions are weight allowed for the car so we had a concern of disqualification as well. We used thick 3D printed wheels as well in our old car. We used some 3d printed parts and used some PVC sheets for the upper base of our car , it was 3 storeys car which was very big so we decided to change it.
+
+**NEW CAR** In the new car , we made a new design making it small and fast. We have made so many changes in our design. The new dimensions are very less than the dimensions of our prevoius robot.This Robot is fast and we have have made design flexible that we can easily change the components when required. 
+
+**ELECTRONICS components**
+
+**Old Car** In the old car, we used the raspberry pi and connected it with arduino by sending signals to arduino from pi and we used CV2 library for detecting the obstacles.We used Power banks to power our arduino and raspberry pi. Also, we used only two buck and boost convertors for powering the main motor , sensors and servo motor. This thing disturbed us so much that whenever servo motor moves that it produces noise in the sensors and readings fluatuates.So, we have faced so many issues in our old robot .
+
+**New Car** In the new car, we have used Arduino due and for obstacle detetction we have used the pixy camera as it is easy to use and train models. For reducing noise, we have now used two batteries and 1 battery is connected in parallel with one buck convertor(giving 5V to sensors) and one buck-boost convertor(giving power to drive motor and Arduino Due), the other battery is connected with a convertor separately which is giving 5V to servo motor. Also for making the output smooth , we have used some capacitors in parallel fashion to all our components like sensors, motors etc.
+So, these are the thing which we missing in our prevois Robot.
+
+ALSO,
+we have used vero board and designed the circuit on it as it looks professional and accurate , it was not present in old robot.
+
+![vero board](https://github.com/ACteamX/WroTeamX/assets/141714595/5df687b0-4ae7-402f-ab06-b5a54f4b0618)
+![vero board](https://github.com/ACteamX/WroTeamX/assets/141714595/eba352bd-c75a-4a8f-ae0a-bab460c0767c)
+
+
+**Note**
+
+****An important thing to note that is that we tried to use MPU920 and RGB color sensor for getting the best output but the sensors available in Pakistan are too noisy to use, we tried so many times for getting accurate readings but failed, with MPU920 we used kalman filter and it was working fine but when we tried to put it in our car then the readings started fluctuating and same faced same thing with RGB color sensor, so we tried to rely on encoder motor and pixy camera for making U-turn.
+we have uploaded our all codes in the SRC file.**
+
+
+
 
 
 
