@@ -36,7 +36,7 @@ This project meets the following requirements specified by the WRO Future Engine
 
 **Performance Videos** are in video folder.
 
-**Engineering Factor** is found in build and README
+**Engineering Factor** is found in models.
 
 
 ### Introduction:
@@ -67,6 +67,8 @@ As far as the electrical components are concerned , we have used pixy camera for
 **Personal Growth:** Encourage individual growth and confidence through overcoming challenges.
 
 **Technology Exposure:** Stay updated on cutting-edge technology trends in robotics and automation.
+
+
 
 
 **NEW CAR VS OLD CAR**
