@@ -69,6 +69,8 @@ As far as the electrical components are concerned , we have used pixy camera for
 **Technology Exposure:** Stay updated on cutting-edge technology trends in robotics and automation.
 
 
+
+
 **NEW CAR VS OLD CAR**
 ![NEW DESIGN)](https://github.com/ACteamX/WroTeamX/assets/141714595/608c06b5-4983-4be8-89e8-85847c232f5f) ![sidetiltright](https://github.com/ACteamX/WroTeamX/assets/141714595/cb22b858-2131-4d04-bb26-f10d0f93bfd0)
 
