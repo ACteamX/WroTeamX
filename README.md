@@ -36,7 +36,7 @@ This project meets the following requirements specified by the WRO Future Engine
 
 **Performance Videos** are in video folder.
 
-**Engineering Factor** is found in build and README
+**Engineering Factor** is found in models.
 
 
 ### Introduction:
