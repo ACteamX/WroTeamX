@@ -19,3 +19,11 @@ https://youtube.com/shorts/EfbhEJMxECs?si=frwcEXbu2ZqGMRCH
 open challenge:
 (7 August 2023)
 https://youtube.com/shorts/poAX6saX2Ww?feature=share
+
+Obstacle Challenge:
+(5 nov. 2023)
+https://youtu.be/E2m0BedQAgI?si=KpEgL2KzRvyDLHfl
+
+open challenge:
+(5 Nov. 2023)
+https://youtube.com/shorts/b5xt8Rax1_8?si=9aig2pnhw0YFGSqh
